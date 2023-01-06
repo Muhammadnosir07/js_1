@@ -2,17 +2,61 @@
     margin: 0;
     padding: 0;
 }
+.wrapper{
+    background: radial-gradient(circle closest-side, red, orange, blue, green, gold, white, greenyellow, brown, crimson, purple, pink, darkblue, magenta);
+    height: 100vh;
+    width: 100%;
+}
 .form{
-    position: relative;
     left: 570px;
     top: 200px;
 }
 .inp1{
+    position: relative;
+    left: 600px;
+    top: 250px;
     outline: none;
     height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    color: crimson;
+    border: 1px solid rgb(25, 0, 255);
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(199, 188, 188);
+}
+.inp1:hover{
+    width: 200px;
+    height: 30px;
+    border: 2px solid green;
+    font-size: 20px;
+    font-weight: 700;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .btn{
+    position: relative;
+    left: 600px;
+    display: inline-block;
+    top: 255px;
     width: 90px;
+    font-size: 15px;
     height: 30px;
     border-radius: 7px 7px 7px 7px;
+    border: 1px solid black;
+    background-color: aqua;
+    color: rgb(4, 0, 253);
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    background: rgb(61, 61, 216);
+    font-size: 20px;
+    color: wheat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    height: 40px;
+    width: 100px;
 }
